@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* To style font */
+html {
+  font: normal 16px 'Nunito', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #3A3A3B;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+ul,
+nav {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.0);
+  margin: 0 100px;
+}
+
+hr {
+  height: 100px;
+  width: 5px;
+  color: #3A3A3B;
+}
+
+/* Hero Section */
+
+section.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 80vh;
+
+}
+
+section.hero h1 {
+  font-size: 3.5em;
+}
+
+section.hero h3 {
+  font-size: 2.0em;
+}
+
+
+/* About Section */
+
+section.about {
+  display: flex;
+  height: 100vh;
+}
+
+div.about-text {
+  border-right: solid #3A3A3B;
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+section div ul.about-text li {
+  margin: 15px 30px;
+}
+
+div.about-img {
+  flex-basis: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  max-height: 350px;
+  align-content: center;
+  display: flex;
+  justify-content: space-around;
+  /* background-size: cover;
+  background-clip: inherit; */
+}
+
+div img.self {
+  position: relative;
+  height: 350px;
+}
+
+@media (max-width: 950px) {
+  div.about-img,
+  div.about-text {
+    flex-basis: 50%;
+  }
+
+  section div ul.about-text li {
+    margin: 15px 15px;
+  }
+
+}
+
+/* Footer Section */
+
+footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: 10px;
+}
+
+@media (max-width:1075px) {
+  footer {
+    padding: 20px;
+  }
+}
+
+@media (max-width:600px) {
+  footer {
+    padding: 5px;
+  }
+}
+
+footer ul li {
+  display: inline-flex;
+}

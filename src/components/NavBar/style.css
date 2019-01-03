@@ -1,0 +1,46 @@
+/* Header */
+
+header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px 20px;
+  background-color: rgba(255, 255, 255, 0.0);
+  margin-top: 10px;
+}
+
+header nav {
+  display: flex;
+  margin-right: -15px;
+}
+
+header nav li {
+  margin: 0 15px;
+}
+
+header a,
+header nav li a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+header h2 {
+  font-weight: 700;
+}
+
+header a.home:hover {
+  color: black;
+}
+
+header nav li a:hover {
+  color: black;
+  animation: 100ms navGrow 0.5s forwards;
+}
+
+
+@keyframes navGrow {
+  100% {
+    transform: scale(2);
+  }
+}
