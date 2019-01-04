@@ -11,9 +11,26 @@ header {
   margin-top: 10px;
 }
 
+@media(max-width: 615px) {
+  header {
+    padding: 20px 50px;
+  }
+}
+@media(max-width: 560px) {
+  header {
+    padding: 20px 30px;
+  }
+}
+@media(max-width: 517px) {
+  header {
+    padding: 20px 15px;
+  }
+}
+
 header nav {
   display: flex;
   margin-right: -15px;
+  font-size: 1em;
 }
 
 header nav li {
@@ -33,14 +50,8 @@ header a.home:hover {
   color: black;
 }
 
-header nav li a:hover {
+.grow { transition: all .1s ease-in-out; }
+
+.grow:hover {
   color: black;
-  animation: 100ms navGrow 0.5s forwards;
-}
-
-
-@keyframes navGrow {
-  100% {
-    transform: scale(2);
-  }
 }
