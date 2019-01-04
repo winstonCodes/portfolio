@@ -82,6 +82,13 @@ section.about {
   height: 100vh;
 }
 
+@media(max-width: 600px){
+  section.about {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 div.about-text {
   border-right: solid #3A3A3B;
   flex-basis: 40%;
