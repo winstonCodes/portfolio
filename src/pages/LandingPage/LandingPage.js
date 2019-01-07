@@ -4,7 +4,7 @@ import './style.css';
 const LandingPage = props => (
   <div>
 
-    <section class="hero">
+    <section className="hero">
       <h1>Hi, I'm Winston</h1>
       <h3>Javascript Programmer | ReactJS | Vanilla JS</h3>
     </section>
