@@ -1,3 +1,6 @@
+html {
+  font-size: 16px;
+}
 section.hero {
   margin: 0;
   h1 {
@@ -33,17 +36,17 @@ section.hero {
   font-size: 0.8em;
   margin-bottom: 7vw;
   .portfolio-thumbnail {
-    flex-basis: 50%;
-    // background-image: url("./images/desktop-preview.jpg");
+    flex-basis: 40%;
     background-position: center;
     background-size: cover;
   }
   .portfolio-content {
-    flex-basis: 40%;
-    padding: 20px 30px 30px;
+    flex-basis: 55%;
+    padding: 20px 30px 20px;
     h3 {
-      // font-size: 1.5em;
+      font-size: 1.6em;
       margin-bottom: 5px;
+      line-height: 1.2;
     }
     h5 {
       margin-bottom: 20px;
@@ -51,12 +54,14 @@ section.hero {
     p {
       line-height: 1.6;
       text-align: left;
-      font-size: 1.3em;
+      font-size: 16px;
     }
   }
   .portfolio-details {
-    flex-basis: 10%;
+    flex-basis: 5%;
     border-top: 1px solid rgba(255,255,255,0.5);
+    padding-top: 2px;
+    font-size: 14px;
     display: flex;
     justify-content: space-around;
     align-items: center;
