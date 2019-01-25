@@ -1,0 +1,33 @@
+
+section.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 200px 7vw;
+  h1 {
+    margin-bottom: 1.8em;
+  }
+  a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.8;
+  }
+  a:hover {
+    opacity: 1;
+  }
+  a:active {
+    font-size: 1.05em;
+  }
+  p {
+    text-align: center;
+    line-height: 2;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 720px) {
+  section.hero {
+    margin: auto;
+    width: 100%;
+  }
+}

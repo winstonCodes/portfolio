@@ -9,7 +9,6 @@ const NavBar = props => (
       <nav className="nav-container">
         <li><NavLink to="/about" className="about grow">About</NavLink></li>
         <li><NavLink to="/portfolio" className="portfolio grow">Portfolio</NavLink></li>
-        <li><NavLink to="/blog" className="blog grow">Blog</NavLink></li>
         <li><NavLink to="/contact" className="contact grow">Contact</NavLink></li>
       </nav>
     </header>
@@ -17,3 +16,6 @@ const NavBar = props => (
 );
 
 export default NavBar;
+
+
+// <li><NavLink to="/blog" className="blog grow">Blog</NavLink></li>

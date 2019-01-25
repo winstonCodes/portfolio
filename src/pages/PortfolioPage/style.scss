@@ -1,0 +1,64 @@
+section.hero {
+  margin: 0;
+  h1 {
+    margin-bottom: 158px;
+  }
+}
+
+.portfolio-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media (max-width: 840px) {
+  .portfolio-container {
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+  }
+
+}
+
+.portfolio-square {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 3px solid rgba(255,255,255,0.5);
+  border-radius: 10px;
+  padding: 10px;
+  width: 350px;
+  height: 500px;
+  font-size: 0.8em;
+  margin-bottom: 7vw;
+  .portfolio-thumbnail {
+    flex-basis: 50%;
+    // background-image: url("./images/desktop-preview.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .portfolio-content {
+    flex-basis: 40%;
+    padding: 20px 30px 30px;
+    h3 {
+      // font-size: 1.5em;
+      margin-bottom: 5px;
+    }
+    h5 {
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.6;
+      text-align: left;
+      font-size: 1.3em;
+    }
+  }
+  .portfolio-details {
+    flex-basis: 10%;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
