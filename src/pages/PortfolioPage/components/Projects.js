@@ -12,7 +12,7 @@ export default [
     subtitle:"React, HTML, CSS/Sass",
     description:"This portfolio is written in React, HTML, and Sass. Feel free to view the code by clicking below",
     image: require("../images/portfolio.jpg"),
-    demo:"/",
+    demo:"https://winstoncodes.github.io/portfolio/",
     code:"https://github.com/winstonCodes/portfolio"
   },
   {
