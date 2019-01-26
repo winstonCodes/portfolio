@@ -4,7 +4,7 @@ const PortfolioCard = props => {
   const {title, subtitle, description, image, demo, code} = props.project;
   return(
     <div className="portfolio-square">
-      <div className="portfolio-thumbnail" style={{backgroundImage: `url(${image})`}}></div>
+      <a href={demo} className="portfolio-thumbnail" style={{backgroundImage: `url(${image})`}}></a>
       <div className="portfolio-content">
         <h3>{title}</h3>
         <h5 className="subtitle">{subtitle}</h5>

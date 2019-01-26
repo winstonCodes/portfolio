@@ -3,9 +3,33 @@ export default [
     title:"Landing Page w/ Multiple Themes",
     subtitle:"React, HTML, CSS/Sass",
     description:"Demo landing page showing responsive design. Multiple themes on click",
-    image: require("../images/fylo.jpg"),
+    image: require("../images/fylo-themes.jpg"),
     demo:"https://winstoncodes.github.io/fylo-react/",
     code:"https://github.com/winstonCodes/fylo-react"
+  },
+  {
+    title:"My Portfolio",
+    subtitle:"React, HTML, CSS/Sass",
+    description:"This portfolio is written in React, HTML, and Sass. Feel free to view the code by clicking below",
+    image: require("../images/portfolio.jpg"),
+    demo:"https://winstoncodes.github.io/portfolio/",
+    code:"https://github.com/winstonCodes/portfolio"
+  },
+  {
+    title:"React Calculator",
+    subtitle:"React, HTML, CSS/Sass",
+    description:"Basic calculator built with React",
+    image: require("../images/calculator.jpg"),
+    demo:"https://winstoncodes.github.io/react-calculator/",
+    code:"https://github.com/winstonCodes/react-calculator"
+  },
+  {
+    title:"Landing Page w/ Day-Night Themes",
+    subtitle:"Vanilla JS, HTML, CSS/Sass",
+    description:"Click moon to switch themes. HTML, CSS, and javascript coded by myself. Night-theme design specs and image assets courtesy of Frontendmentor.io",
+    image: require("../images/fylo-day-night.jpg"),
+    demo:"https://winstoncodes.github.io/fylo-dark-theme/",
+    code:"https://github.com/winstonCodes/fylo-dark-theme"
   },
   {
     title:"Decorative Landing Page",

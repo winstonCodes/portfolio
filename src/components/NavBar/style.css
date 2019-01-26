@@ -60,7 +60,7 @@ header a.home:hover {
 }
 @media(max-width: 473px) {
   header {
-    padding: 0;
+    padding: 5px 10px;
   }
   header nav {
     margin-right: 0;
@@ -68,6 +68,6 @@ header a.home:hover {
     vertical-align: text-bottom;
   }
   header nav li {
-    margin: 4px 5px 0 0;
+    margin: 4px 10px 0 0;
   }
 }
