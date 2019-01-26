@@ -2,7 +2,7 @@
   "name": "winston-codes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://winstoncodes.github.io/portfolio/",
+  "homepage": "/build",
   "dependencies": {
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
