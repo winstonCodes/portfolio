@@ -19,7 +19,7 @@ export default [
     title:"React Calculator",
     subtitle:"React, HTML, CSS/Sass",
     description:"Basic calculator built with React",
-    image: require("../images/calculator.jpg"),
+    image: require("../images/calculator2.jpg"),
     demo:"https://winstoncodes.github.io/react-calculator/",
     code:"https://github.com/winstonCodes/react-calculator"
   },
