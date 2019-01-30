@@ -1,5 +1,13 @@
 export default [
   {
+    title:"Todo App",
+    subtitle:"React, HTML, CSS/Sass",
+    description:"Todo app written in React, using the new, experimental Hooks feature",
+    image: require("../images/todo-app.jpg"),
+    demo:"https://winstoncodes.github.io/todo-react/",
+    code:"https://github.com/winstonCodes/todo-react"
+  },
+  {
     title:"Landing Page w/ Multiple Themes",
     subtitle:"React, HTML, CSS/Sass",
     description:"Demo landing page showing responsive design. Multiple themes on click",
