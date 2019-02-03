@@ -1,12 +1,12 @@
 {
   "main.css": "/portfolio/static/css/main.dc67e476.chunk.css",
-  "main.js": "/portfolio/static/js/main.9ebd7436.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.9ebd7436.chunk.js.map",
+  "main.js": "/portfolio/static/js/main.ea3cfb93.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.ea3cfb93.chunk.js.map",
   "static/js/1.9d7f6f7c.chunk.js": "/portfolio/static/js/1.9d7f6f7c.chunk.js",
   "static/js/1.9d7f6f7c.chunk.js.map": "/portfolio/static/js/1.9d7f6f7c.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/media/todo-app.jpg": "/portfolio/static/media/todo-app.e455f27d.jpg",
+  "static/media/todo-app.jpg": "/portfolio/static/media/todo-app.daa4abf7.jpg",
   "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.6c89537e.jpg",
   "static/media/calculator2.jpg": "/portfolio/static/media/calculator2.c4e4bc07.jpg",
   "static/media/fylo-day-night.jpg": "/portfolio/static/media/fylo-day-night.6b5676ca.jpg",
@@ -16,6 +16,6 @@
   "static/media/fylo-themes.jpg": "/portfolio/static/media/fylo-themes.72e78620.jpg",
   "static/css/main.dc67e476.chunk.css.map": "/portfolio/static/css/main.dc67e476.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.194892cdc927b0b605e6b808030d70ce.js": "/portfolio/precache-manifest.194892cdc927b0b605e6b808030d70ce.js",
+  "precache-manifest.bba5bcc4a07c56baacad55fdc8cd10d4.js": "/portfolio/precache-manifest.bba5bcc4a07c56baacad55fdc8cd10d4.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }

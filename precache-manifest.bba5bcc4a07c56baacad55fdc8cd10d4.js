@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/portfolio.6c89537e.jpg"
   },
   {
-    "revision": "9ebd74362750935831fc",
+    "revision": "ea3cfb9355b09fb08967",
     "url": "/portfolio/static/css/main.dc67e476.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.ee2a1003.js"
   },
   {
-    "revision": "e455f27df86a447bf75675a8aa848d5e",
-    "url": "/portfolio/static/media/todo-app.e455f27d.jpg"
+    "revision": "daa4abf74539b520a75d9798b2d66eae",
+    "url": "/portfolio/static/media/todo-app.daa4abf7.jpg"
   },
   {
     "revision": "72e78620a727c18a3e6f5317b462e531",
     "url": "/portfolio/static/media/fylo-themes.72e78620.jpg"
   },
   {
-    "revision": "9ebd74362750935831fc",
-    "url": "/portfolio/static/js/main.9ebd7436.chunk.js"
+    "revision": "ea3cfb9355b09fb08967",
+    "url": "/portfolio/static/js/main.ea3cfb93.chunk.js"
   },
   {
     "revision": "c4e4bc0765437f07cf08a712b71ca08b",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/simple-landing.6963cac1.jpg"
   },
   {
-    "revision": "1104e808a6f5b0707873bde36b11e1db",
+    "revision": "c5711c16d9f5ed7b096e0ce0b909dcec",
     "url": "/portfolio/index.html"
   }
 ];
